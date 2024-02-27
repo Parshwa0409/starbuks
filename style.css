@@ -124,6 +124,9 @@ h3.tagline {
     background-color: rgba(10, 82, 45, 1);
     border-radius: 1rem;
 
+    display: flex;
+    flex-direction: column;
+
     box-shadow: 0.25rem 0.25rem 0.5rem grey;
 }
 
@@ -141,6 +144,49 @@ h3.tagline {
 
 .item > p {
     text-align: center;
+}
+
+.item > button {
+    width: 100%;
+    margin-top: auto;
+    background-color: #fff;
+}
+
+/* cart - section */
+.cart-body {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+#cart-list {
+    padding: 0;
+}
+
+#cart-heading {
+    font-weight: 600;
+    color: rgba(10, 82, 45, 1);
+    text-align: center;
+}
+
+.cart-item {
+    color: white;
+    background-color: rgba(10, 82, 45, 1);
+
+    font-weight: 600;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-delete-btn {
+    margin-right: 1rem;
+    border-radius: 0.25rem;
 }
 
 /* about-us  -  page*/

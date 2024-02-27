@@ -20,6 +20,7 @@
 
         <title>Starbucks</title>
     </head>
+
     <body>
         <div id="root">
             <div class="row">
@@ -111,6 +112,12 @@
                                     espresso with hot water to achieve the size
                                     of a standard cup of brewed coffee.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -135,6 +142,12 @@
                                     and have a mildly sweet flavouring from the
                                     milk.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -157,6 +170,12 @@
                                     and creamy drink that's often served hot,
                                     but can also be made cold.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -180,6 +199,12 @@
                                     caramel drizzle. It's a sweeter version of a
                                     traditional macchiato.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -204,6 +229,12 @@
                                     complex beverage that has everything to do
                                     with the people you share it with.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -227,6 +258,12 @@
                                     Dark roast coffee typically has a bold,
                                     smoky taste.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -250,6 +287,12 @@
                                     Dark roast coffee typically has a bold,
                                     smoky taste.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -273,6 +316,12 @@
                                     infused with air, to create a smooth and
                                     velvety texture and creamy taste.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
 
@@ -297,17 +346,41 @@
                                     whipped cream or spices, and may also
                                     include blended Starbucks refreshers.
                                 </p>
+                                <button
+                                    class="btn"
+                                    onclick="addItemToCart(this)"
+                                >
+                                    Add To Cart
+                                </button>
                             </div>
                         </div>
                     </div>
+
+                    <div class="cart-body">
+                        <h1 id="cart-heading">Your Cart</h1>
+
+                        <ul id="cart-list">
+                            <li class="cart-item">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Illo voluptatem eligendi
+                                totam! Unde quia quo recusandae?
+
+                                <button class="cart-delete-btn">
+                                    <i class="fa fa-trash-o"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"
+            ></script>
+
+            <script src="script.js"></script>
+        </div>
     </body>
 </html>
